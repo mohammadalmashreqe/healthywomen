@@ -30,6 +30,7 @@ namespace enasproject2
             DataTable dt = dal.SelectData("myLogin", p);
             if (dt.Rows.Count > 0)
                 Response.Redirect("Default.aspx");
+            
         }
 
         protected void Button2_Click(object sender, EventArgs e)

@@ -26,16 +26,20 @@
                 <br />
                 <h2>Add article </h2>
 <label > Title</label>
-            <asp:TextBox ID="TextBox_title" runat="server" CssClass="form-control"></asp:TextBox>
-<label> text </label>
-                            <asp:TextBox ID="TextBox_text" runat="server" CssClass="form-control" Height="118px" TextMode="MultiLine"></asp:TextBox>
+            <asp:TextBox ID="TextBox_title" runat="server" CssClass="form-control" Width="230px"></asp:TextBox>
+<label> URL </label>
+                            
                 <br />
-                
-                <asp:Button ID="Button1" CssClass="btn btn-info"  runat="server" Text="Add" OnClick="Button1_Click" />
+                <asp:TextBox ID="TextBox_URL" runat="server" CssClass="form-control" Width="230px"  ></asp:TextBox>
+                <asp:Button ID="Button1" CssClass="btn btn-info"  runat="server" Text="Add"  OnClick="Button1_Click" />
             </div>
-        </div>
-        <asp:GridView CssClass="table table-info" ID="GridView1" runat="server">
+ <asp:GridView CssClass="table table-info" ID="GridView1" runat="server" OnRowDataBound="GridView1_RowDataBound" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
         </asp:GridView>
-    </form>
+<asp:Button ID="Button_Edit" CssClass="btn btn-info" runat="server" Text="Edit" OnClick="Button_Edit_Click" />
+        <asp:Button ID="Button_Delete" CssClass="btn btn-info" runat="server" Text="Delete" OnClick="Button_Delete_Click" />
+  
+        </div>
+       
+          </form>
 </body>
 </html>

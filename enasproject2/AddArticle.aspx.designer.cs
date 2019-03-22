@@ -31,13 +31,13 @@ namespace enasproject2 {
         protected global::System.Web.UI.WebControls.TextBox TextBox_title;
         
         /// <summary>
-        /// TextBox_text control.
+        /// TextBox_URL control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_text;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_URL;
         
         /// <summary>
         /// Button1 control.
@@ -56,5 +56,23 @@ namespace enasproject2 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView1;
+        
+        /// <summary>
+        /// Button_Edit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button_Edit;
+        
+        /// <summary>
+        /// Button_Delete control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button_Delete;
     }
 }

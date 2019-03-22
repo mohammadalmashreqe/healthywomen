@@ -7,10 +7,15 @@
     <br />
     <br />
     <br />
-    <br />
+    <br /> 
 
     <div class="container">
-    <asp:GridView ID="GridView1" runat="server" CssClass="table"></asp:GridView>
+    <asp:GridView ID="GridView1" runat="server" CssClass="table" OnRowDataBound="GridView1_RowDataBound" OnSelectedIndexChanged="GridView1_SelectedIndexChanged"></asp:GridView>
+        <div id="dvMyHtml" runat="server">
+
+           
+
+        </div>
 </div>
 
 </asp:Content>
