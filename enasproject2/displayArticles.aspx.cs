@@ -17,10 +17,10 @@ namespace enasproject2
         {
             DataAccessLayer dal = DataAccessLayer.getConInstance();
             dal.Open();
-          DataTable dt=  dal.SelectData("GetArticles", null);
+            DataTable dt = dal.SelectData("GetArticles", null);
             GridView1.DataSource = dt;
             GridView1.DataBind();
-     
+
 
 
         }
@@ -45,5 +45,6 @@ namespace enasproject2
 
                 }
             }
+        }
     }
 }

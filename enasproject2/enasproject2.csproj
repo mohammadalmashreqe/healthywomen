@@ -71,6 +71,7 @@
     <Content Include="AddArticle.aspx" />
     <Content Include="AdminLogin.aspx" />
     <Content Include="AdminPanel.aspx" />
+    <Content Include="Calorie_calculator.aspx" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-reboot.css" />
@@ -81,6 +82,7 @@
     <Content Include="css\style.css" />
     <Content Include="css\swiper.css" />
     <Content Include="css\swiper.min.css" />
+    <Content Include="Date_of_birth.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="displayArticles.aspx" />
     <Content Include="DoctorRequests.aspx" />
@@ -164,6 +166,7 @@
     <Content Include="js\swiper.min.js" />
     <Content Include="js\theia-sticky-sidebar.js" />
     <Content Include="Login.aspx" />
+    <Content Include="Services.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="signupdoctor.aspx" />
     <Content Include="style.css" />
@@ -198,11 +201,25 @@
     <Compile Include="AdminPanel.aspx.designer.cs">
       <DependentUpon>AdminPanel.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Calorie_calculator.aspx.cs">
+      <DependentUpon>Calorie_calculator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calorie_calculator.aspx.designer.cs">
+      <DependentUpon>Calorie_calculator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DAL\DataAccessLayer.cs" />
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Date_of_birth.aspx.cs">
+      <DependentUpon>Date_of_birth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Date_of_birth.aspx.designer.cs">
+      <DependentUpon>Date_of_birth.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -247,6 +264,13 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
     <Compile Include="signup.aspx.cs">
       <DependentUpon>signup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
