@@ -94,6 +94,7 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\themify.svg" />
+    <Content Include="heartRate.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="images\about-bg.png" />
     <Content Include="images\about.jpg" />
@@ -169,6 +170,7 @@
     <Content Include="js\swiper.min.js" />
     <Content Include="js\theia-sticky-sidebar.js" />
     <Content Include="Login.aspx" />
+    <Content Include="NaturalBabyWeighLength.aspx" />
     <Content Include="Services.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="signupdoctor.aspx" />
@@ -259,6 +261,13 @@
     <Compile Include="error.aspx.designer.cs">
       <DependentUpon>error.aspx</DependentUpon>
     </Compile>
+    <Compile Include="heartRate.aspx.cs">
+      <DependentUpon>heartRate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="heartRate.aspx.designer.cs">
+      <DependentUpon>heartRate.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -272,6 +281,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NaturalBabyWeighLength.aspx.cs">
+      <DependentUpon>NaturalBabyWeighLength.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NaturalBabyWeighLength.aspx.designer.cs">
+      <DependentUpon>NaturalBabyWeighLength.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services.aspx.cs">

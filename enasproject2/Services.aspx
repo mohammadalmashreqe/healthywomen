@@ -7,18 +7,21 @@
     <br />
     <br />
     <br />
-
+    <br />
+    <br />
     <div class="container">
         <ul class="list-group">
 
-   
-     <li class="list-group-item">  <a href="Calorie_calculator.aspx"> calories calculator</a></li>
 
-                 <li class="list-group-item">  <a href="Date_of_birth.aspx"> Date of Birth calculator </a></li>
+            <li class="list-group-item"><a href="Calorie_calculator.aspx">calories calculator</a></li>
 
-                    <li class="list-group-item">  <a href="BodyMassIndex.aspx"> Body Mass Index </a></li>
+            <li class="list-group-item"><a href="Date_of_birth.aspx">Date of Birth calculator </a></li>
 
-            </ul>
+            <li class="list-group-item"><a href="BodyMassIndex.aspx">Body Mass Index </a></li>
+            <li class="list-group-item"><a href="heartRate.aspx">Heart rate </a></li>
+            <li class="list-group-item"><a href="NaturalBabyWeighLength.aspx">Natural Baby Weight and Length </a></li>
+
+        </ul>
 
 
 

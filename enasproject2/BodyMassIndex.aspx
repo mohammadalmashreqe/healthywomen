@@ -34,8 +34,8 @@
 
 <!-- One "tab" for each step in the form: -->
 <div class="tab">
-  <p><input type="number" id="w" placeholder="weight..." oninput="this.className = ''"></p>
-  <p><input type="number" id="h" placeholder="height..." oninput="this.className = ''"></p>
+  <p><input type="number" id="w" placeholder="weight in KG..." oninput="this.className = ''"></p>
+  <p><input type="number" id="h" placeholder="height in Meters..." oninput="this.className = ''"></p>
 </div>
 
 <div class="tab">
