@@ -16,7 +16,9 @@
 
                  <li class="list-group-item">  <a href="Date_of_birth.aspx"> Date of Birth calculator </a></li>
 
-     </ul>
+                    <li class="list-group-item">  <a href="BodyMassIndex.aspx"> Body Mass Index </a></li>
+
+            </ul>
 
 
 

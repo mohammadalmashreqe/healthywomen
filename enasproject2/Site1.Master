@@ -16,16 +16,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper.min.css">
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
     <script src="js/custom.js"></script>
-
+    
 
 </head>
 <body>
@@ -45,7 +45,7 @@
                             <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
                                 <li class="current-menu-item"><a href="Default.aspx">Home</a></li>
                                 <li><a href="About.aspx">About us</a></li>
-                                <li><a href="services.html">Services</a></li>
+                                <li><a href="Services.aspx">Services</a></li>
                                 <li><a href="displayArticles.aspx">Articles</a></li>
                                 <li><a href="contact.html">Contact</a></li>
 								
@@ -130,14 +130,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         </div><!-- .footer-widgets -->
     </footer><!-- .site-footer -->
     </form>
+    
 
        <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
     <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
-    <script type='text/javascript' src='js/swiper.min.js'></script>
     <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
     <script type='text/javascript' src='js/circle-progress.min.js'></script>
     <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
     <script type='text/javascript' src='js/jquery.barfiller.js'></script>
-    <script type='text/javascript' src='js/custom.js'></script>
 </body>
 </html>

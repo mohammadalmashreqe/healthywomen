@@ -71,6 +71,7 @@
     <Content Include="AddArticle.aspx" />
     <Content Include="AdminLogin.aspx" />
     <Content Include="AdminPanel.aspx" />
+    <Content Include="BodyMassIndex.aspx" />
     <Content Include="Calorie_calculator.aspx" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
@@ -82,6 +83,8 @@
     <Content Include="css\style.css" />
     <Content Include="css\swiper.css" />
     <Content Include="css\swiper.min.css" />
+    <Content Include="custom1.css" />
+    <Content Include="customscript.js" />
     <Content Include="Date_of_birth.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="displayArticles.aspx" />
@@ -200,6 +203,13 @@
     </Compile>
     <Compile Include="AdminPanel.aspx.designer.cs">
       <DependentUpon>AdminPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BodyMassIndex.aspx.cs">
+      <DependentUpon>BodyMassIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BodyMassIndex.aspx.designer.cs">
+      <DependentUpon>BodyMassIndex.aspx</DependentUpon>
     </Compile>
     <Compile Include="Calorie_calculator.aspx.cs">
       <DependentUpon>Calorie_calculator.aspx</DependentUpon>
