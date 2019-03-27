@@ -170,6 +170,7 @@
     <Content Include="js\swiper.min.js" />
     <Content Include="js\theia-sticky-sidebar.js" />
     <Content Include="Login.aspx" />
+    <Content Include="myimages\no-image.png" />
     <Content Include="NaturalBabyWeighLength.aspx" />
     <Content Include="Services.aspx" />
     <Content Include="signup.aspx" />

@@ -15,11 +15,7 @@ namespace enasproject2
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            DateTime d= Calendar1.SelectedDate;
-            
-         
-            
-            Label1.Text = "Result : " + d.AddDays(280).ToShortDateString();
+           
         }
     }
 }
