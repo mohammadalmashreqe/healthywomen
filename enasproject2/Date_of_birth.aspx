@@ -18,7 +18,7 @@
 
     <form id="regForm" >
 <div class="container">
-<h2>Natural Baby length and wieght Calculator :</h2>
+<h2>Date of birth Calculator :</h2>
 
 <!-- One "tab" for each step in the form: -->
 <div class="tab">
