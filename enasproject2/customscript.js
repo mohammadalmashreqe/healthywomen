@@ -11,7 +11,15 @@ function showTab(n) {
     } else {
         document.getElementById("prevBtn").style.display = "inline";
     }
-  
+    if (n == 1) {
+        document.getElementById("prevBtn").style.display = "inline";
+        document.getElementById("nextBtn").style.display = "none";
+    }
+    if(n==0) {
+        document.getElementById("prevBtn").style.display = "none";
+        document.getElementById("nextBtn").style.display = "inline";
+    }
+    
     // ... and run a function that displays the correct step indicator:
     fixStepIndicator(n)
 }
@@ -32,26 +40,49 @@ function nextPrev(n) {
         var w = parseFloat(document.getElementById("w").value)
         var l = document.getElementById("Label1");
         var r = w / Math.pow(h, 2);
+        var roc = document.getElementById("roc");
         r = r.toFixed(2);
+
         if (r < 18.5) {
               
             l.setAttribute("style", "text-align:center; color:red;");
             
-            l.innerHTML ="result : "+ r+"<br/>Underweight";
-        }
+            l.innerHTML = "result : " + r + "<br/>Underweight";
+            roc.innerHTML = `Do not deprive yourself of anything, just eat whatever you want but in small quantities.
+
+Eat plenty of water, at least 2 liters a day
+
+Move through the day, do not mean strong sports but only movement in the home or work business.`;
+
+}
         else
             if (r >= 18.5 && r <= 24.9) {
                 l.setAttribute("style", "text-align:center; color:green;");
-                l.innerHTML = "result : " +r +"<br/>Normal weight";
+                l.innerHTML = "result : " + r + "<br/>Normal weight";
+                roc.innerHTML = `Do not deprive yourself of anything, just eat whatever you want but in small quantities.
+
+Eat plenty of water, at least 2 liters a day
+
+Move through the day, do not mean strong sports but only movement in the home or work business.`;
             }
             else
                 if (r >= 25 && r <= 29.9) {
                     l.setAttribute("style", "text-align:center; color:red;");
-                    l.innerHTML = "result : " +r +"<br/>Overweight";
+                    l.innerHTML = "result : " + r + "<br/>Overweight";
+                    roc.innerHTML = `Do not use too much fat in your food
+
+Minimize supper, and if you feel hungry just a light snacking instead of fatty meals.
+
+Watch your body and your way of wearing it. If you notice that your body curves increase, you should realize that something is wrong and needs to be adjusted in your lifestyle.`;
                 }
                 else {
                     l.setAttribute("style", "text-align:center; color:red;");
-                    l.innerHTML = "result : " + r +"<br/> Obesity";
+                    l.innerHTML = "result : " + r + "<br/> Obesity";
+                    roc.innerHTML = `Monitor your body's performance and try to follow the signs that you have excess fat, which often appears to be difficult to breathe after exertion, or inability to do any movement-based activities.
+
+Focus on your food, eat it slowly, enjoy every bite, and listen to your stomach when you feel full and stop immediately
+
+Do not finish your dish, try to rely on protein and vegetables more than your dependence on carbohydrates and fats.`;
                 }
 
     }

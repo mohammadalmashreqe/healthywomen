@@ -21,8 +21,14 @@
 
 <div class="tab">
  <h1 >  <label  id="Label1">   </label></h1> 
+    
 </div>
-
+<p id="roc">Before starting exercise, 
+        consult your doctor if you have a chronic
+        health condition such as heart disease, 
+        high blood pressure or diabetes,
+        or if you are taking beta blockers for these conditions or for migraines or glaucoma. Also consult your doctor if you experience heart palpitations, 
+        fatigue and shortness of breath</p>
 
 
 
@@ -61,7 +67,13 @@ function showTab(n) {
     }
     if (n == 0) {
         document.getElementById("nextBtn").style.display = "inline";
-                document.getElementById("prevBtn").style.display = "none";
+        document.getElementById("prevBtn").style.display = "none";
+        document.getElementById("roc").innerHTML = `Before starting exercise, 
+        consult your doctor if you have a chronic
+        health condition such as heart disease, 
+        high blood pressure or diabetes,
+        or if you are taking beta blockers for these conditions or for migraines or glaucoma. Also consult your doctor if you experience heart palpitations, 
+        fatigue and shortness of breath`;
     }
     // ... and run a function that displays the correct step indicator:
     fixStepIndicator(n)
@@ -80,6 +92,7 @@ function nextPrev(n) {
     
         var l = document.getElementById("Label1");
         var r = '';
+        var roc = document.getElementById("roc");
         
         if (h >= 1 && h <= 2) {
 
@@ -100,8 +113,10 @@ function nextPrev(n) {
                 else if (h >= 10 && h <= 18) {
                     r = "60 to 100 beats per minute.";
                 }
-                else
+                else {
                     r = "60 to 100 beats per minute";
+                    roc.innerHTML = `The speed of the heartbeat may vary from person to person. The athlete's pulse may reach 40 beats per minute at rest. Progress in age affects the speed and nature of the pulse in humans. The heart rate is continuously increased from 100 beats / minute during rest, or if the heart rate drops below 60 beats / minute. The high heart rate known as tachycardia, as well as the slow pulse (Bradycardia) ) On the existence of a health problem, especially if the person has signs and symptoms; fainting, and Aldo , Shortness of breath`;
+                }
          l.setAttribute("style", "text-align:center;");
         l.innerHTML = "result : " + r ;
 

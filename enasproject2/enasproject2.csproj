@@ -170,6 +170,7 @@
     <Content Include="js\swiper.min.js" />
     <Content Include="js\theia-sticky-sidebar.js" />
     <Content Include="Login.aspx" />
+    <Content Include="medicalExamination.aspx" />
     <Content Include="myimages\no-image.png" />
     <Content Include="NaturalBabyWeighLength.aspx" />
     <Content Include="Services.aspx" />
@@ -282,6 +283,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="medicalExamination.aspx.cs">
+      <DependentUpon>medicalExamination.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medicalExamination.aspx.designer.cs">
+      <DependentUpon>medicalExamination.aspx</DependentUpon>
     </Compile>
     <Compile Include="NaturalBabyWeighLength.aspx.cs">
       <DependentUpon>NaturalBabyWeighLength.aspx</DependentUpon>
