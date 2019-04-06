@@ -71,6 +71,7 @@
     <Content Include="AddArticle.aspx" />
     <Content Include="AdminLogin.aspx" />
     <Content Include="AdminPanel.aspx" />
+    <Content Include="BloodPressuere.aspx" />
     <Content Include="BodyMassIndex.aspx" />
     <Content Include="Calorie_calculator.aspx" />
     <Content Include="css\bootstrap-grid.css" />
@@ -87,6 +88,7 @@
     <Content Include="customscript.js" />
     <Content Include="Date_of_birth.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="diabetes.aspx" />
     <Content Include="displayArticles.aspx" />
     <Content Include="DoctorRequests.aspx" />
     <Content Include="error.aspx" />
@@ -208,6 +210,13 @@
     <Compile Include="AdminPanel.aspx.designer.cs">
       <DependentUpon>AdminPanel.aspx</DependentUpon>
     </Compile>
+    <Compile Include="BloodPressuere.aspx.cs">
+      <DependentUpon>BloodPressuere.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BloodPressuere.aspx.designer.cs">
+      <DependentUpon>BloodPressuere.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BodyMassIndex.aspx.cs">
       <DependentUpon>BodyMassIndex.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -241,6 +250,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="diabetes.aspx.cs">
+      <DependentUpon>diabetes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="diabetes.aspx.designer.cs">
+      <DependentUpon>diabetes.aspx</DependentUpon>
     </Compile>
     <Compile Include="displayArticles.aspx.cs">
       <DependentUpon>displayArticles.aspx</DependentUpon>

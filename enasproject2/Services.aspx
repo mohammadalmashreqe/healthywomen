@@ -94,7 +94,23 @@ This calculator uses measured recumbent Length for infants and toddlers from bir
             </div>
 
 
-      
+        <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">medical Examination</h5>
+                        <p class="card-text">
+                           heart rate calculation
+                            can be determined for any age
+                           , enabling you 
+                            to use a heart rate monitor and get
+                            the most benefit.
+
+</p>
+                        <a href="medicalExamination.aspx" class="btn btn-primary">Go </a>
+                    </div>
+                </div>
+            </div>
         </div>
 
        
