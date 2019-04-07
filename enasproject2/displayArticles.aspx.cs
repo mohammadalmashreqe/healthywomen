@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,36 +16,27 @@ namespace enasproject2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            DataAccessLayer dal = DataAccessLayer.getConInstance();
-            dal.Open();
-            DataTable dt = dal.SelectData("GetArticles", null);
-            GridView1.DataSource = dt;
-            GridView1.DataBind();
+            if (!IsPostBack)
+            {
+                DataAccessLayer dal = DataAccessLayer.getConInstance();
+                dal.Open();
+                DataTable dt = dal.SelectData("GetArticles", null);
+              
+                Repeater1.DataSource = dt;
 
+                Repeater1.DataBind();
+            }
 
 
         }
 
         protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)
         {
-            if (e.Row.RowType == DataControlRowType.DataRow)
-            {
-                e.Row.Attributes["onclick"] = Page.ClientScript.GetPostBackClientHyperlink(GridView1, "Select$" + e.Row.RowIndex);
-                e.Row.ToolTip = "Click to select this row.";
-            }
+           
         }
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            foreach (GridViewRow row in GridView1.Rows)
-            {
-                if (row.RowIndex == GridView1.SelectedIndex)
-                {
-                    row.BackColor = ColorTranslator.FromHtml("#A1DCF2");
-                    row.ToolTip = string.Empty;
-
-                }
-            }
         }
     }
 }

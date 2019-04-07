@@ -4,6 +4,10 @@
 
 <html>
 <head runat="server">
+    <style>
+
+
+    </style>
     <title>
         <asp:ContentPlaceHolder ID="pagetitle" runat="server">
             </asp:ContentPlaceHolder>
@@ -83,40 +87,50 @@
 
         </div>
         
-        <footer class="site-footer">
-        <div class="footer-widgets">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="foot-about">
-                            <h1>About</h1>
-                            <p>The Healthy Women is a system Helps women to maintain their health. The goal of the system is to provide all the information, tests, and recommendations that the woman during her life, such as medical examinations information. The system is created to be used by women. It will be available online, which makes the system accessible at any times and anywhere by simply using a web browser and Internet. 
-</p>
+        <footer>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="foot-about">
+                                <h1>About</h1>
+                                <p>
+                                    The Healthy Women is a system Helps women to maintain their health. The goal of the system is to provide all the information, tests, and recommendations that the woman during her life, such as medical examinations information. The system is created to be used by women. It will be available online, which makes the system accessible at any times and anywhere by simply using a web browser and Internet. 
+                                </p>
 
-                            <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                        </div><!-- .foot-about -->
-                    </div><!-- .col -->
+                                <p class="copyright">
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </p>
+                            </div>
+                            <!-- .foot-about -->
+                        </div>
+                        <!-- .col -->
 
-                   
 
-                    <div class="col-md-6">
-                        <div class="foot-links">
-                            <h2>Usefull Links</h2>
 
-                            <ul class="p-0 m-0">
-                                <li><a href="Default.aspx">Home</a></li>
-                                <li><a href="About.aspx">About us</a></li>
-                                <li><a href="Services.aspx">Services</a></li>
-                               
-                            </ul>
-                        </div><!-- .foot-links -->
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .footer-widgets -->
-    </footer><!-- .site-footer -->
+                        <div class="col-md-6">
+                            <div class="foot-links">
+                                <h2>Usefull Links</h2>
+
+                                <ul class="p-0 m-0">
+                                    <li><a href="Default.aspx">Home</a></li>
+                                    <li><a href="About.aspx">About us</a></li>
+                                    <li><a href="Services.aspx">Services</a></li>
+
+                                </ul>
+                            </div>
+                            <!-- .foot-links -->
+                        </div>
+                        <!-- .col -->
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </div>
+            <!-- .footer-widgets -->
+        </footer><!-- .site-footer -->
     </form>
     
 
