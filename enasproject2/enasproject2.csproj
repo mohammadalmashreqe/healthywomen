@@ -74,6 +74,7 @@
     <Content Include="BloodPressuere.aspx" />
     <Content Include="BodyMassIndex.aspx" />
     <Content Include="Calorie_calculator.aspx" />
+    <Content Include="Cholesterol.aspx" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-reboot.css" />
@@ -119,6 +120,7 @@
     <Content Include="images\heart-beat.png" />
     <Content Include="images\hero.jpg" />
     <Content Include="images\hospital.png" />
+    <Content Include="images\img_avatar2.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\news-1.png" />
     <Content Include="images\news-2.png" />
@@ -151,6 +153,7 @@
     <Content Include="images\user-2.jpg" />
     <Content Include="images\user-3.jpg" />
     <Content Include="images\user-4.jpg" />
+    <Content Include="Iron_Stocks.aspx" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.js" />
@@ -173,12 +176,14 @@
     <Content Include="js\theia-sticky-sidebar.js" />
     <Content Include="Login.aspx" />
     <Content Include="medicalExamination.aspx" />
+    <Content Include="myimages\img_avatar2.png" />
     <Content Include="myimages\no-image.png" />
     <Content Include="NaturalBabyWeighLength.aspx" />
     <Content Include="Services.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="signupdoctor.aspx" />
     <Content Include="style.css" />
+    <Content Include="vitamin_D.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -230,6 +235,13 @@
     </Compile>
     <Compile Include="Calorie_calculator.aspx.designer.cs">
       <DependentUpon>Calorie_calculator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cholesterol.aspx.cs">
+      <DependentUpon>Cholesterol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cholesterol.aspx.designer.cs">
+      <DependentUpon>Cholesterol.aspx</DependentUpon>
     </Compile>
     <Compile Include="DAL\DataAccessLayer.cs" />
     <Compile Include="DataSet1.Designer.cs">
@@ -293,6 +305,13 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Iron_Stocks.aspx.cs">
+      <DependentUpon>Iron_Stocks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Iron_Stocks.aspx.designer.cs">
+      <DependentUpon>Iron_Stocks.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -342,6 +361,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="vitamin_D.aspx.cs">
+      <DependentUpon>vitamin_D.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vitamin_D.aspx.designer.cs">
+      <DependentUpon>vitamin_D.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

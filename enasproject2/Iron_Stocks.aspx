@@ -1,10 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="diabetes.aspx.cs" Inherits="enasproject2.diabetes" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Iron_Stocks.aspx.cs" Inherits="enasproject2.Iron_Stocks" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="pagetitle" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent" runat="server">
-
 
         <br />
     <br />
@@ -13,11 +12,11 @@
 
     <form id="regForm">
         <div class="container">
-            <h2>Diabetes:</h2>
+            <h2>Iron Stocks:</h2>
 
             <!-- One "tab" for each step in the form: -->
             <div class="tab">
-                <input type="number" id="upper">Mg/Dl 
+                <input type="number" id="upper" /> 
     
             </div>
 
@@ -95,31 +94,22 @@
 
                         var roc = document.getElementById("Label_roc");
 
-                        if (upper >= 50 && upper <= 115) {
+                        if (upper <= 170 && upper >= 60) {
                             l.innerHTML = "Normal";
-                            roc.innerHTML = `<ul><li> Check with your doctor periodically and perform the necessary tests that you recommend</li></ul>`;
+
+
+
 
                         }
-                        else
-                            if (upper >= 150 && upper <= 180) {
-                                l.innerHTML = "Good";
-                                roc.innerHTML = `<ul> 
-<li>Check your dentist, to detect any gum problems, and keep track of their safety constantly.</li>
-
-
- <li>Visit the eye doctor periodically, and examine the pupil and retina.</li>
-
-</ul>`;
-                            }
-
-                            else {
-                                l.innerHTML = "seek Emergency care";
-                                roc.innerHTML = ` <ul> <li>Maintain weight</li>
-
- <li>Take treatment regularly.</li>
-
-<li>Take care of the feet and take care of them for fear of any ulcers or wounds.</li></ul>`;
-                            }
+                        else {
+                            l.innerHTML = "Abnormal";
+                            roc.innerHTML = `Eating foods rich in iron, such as: liver, red meat and chicken meat Eat foods that contain folic acid, provides oxygen to the fetus and the body of the pregnant, which we find in Avocadua, fruits, beets and broccoli Eat amounts of vitamins It drives the red blood cells, Guava, raspberry, apple, strawberry and strawberry. Eat green leafy vegetables that treat anemia, such as spinach, mallow, watercress, parsley
+ Preserving breakfast: It is one of the most important meals for adults, young people and adolescents because of the various nutrients of many health benefits and various elements of the food is included in the food pyramid of carbohydrates, vegetables, dairy, fats and fruits of many health benefits, As a fuel to exercise both physical and mental activity.
+ Eating iron helps to absorb: fruits such as guava, citrus, orange, lemon, carrots, and vegetables such as tomatoes, eggplants, carrots and green peppers.
+ Eat legumes: It is a source of food rich in vitamins, proteins, minerals and iron, and resist the tension and weakness resulting from anemia, and helps to rest and relaxation, strengthen blood and help the body to make hemoglobin, increase the health of the body is fighting anemia and injury, Blood, such as: beans, lentils, cowpea, beans, hummus and thermos
+ Treatment of poor appetite and lack of ability to eat: You must first to identify the causes of loss of appetite and work to address, and we will remember ways to open appetite
+`;
+                        }
 
 
 
@@ -177,4 +167,6 @@
             </script>
         </div>
     </form>
+
+
 </asp:Content>

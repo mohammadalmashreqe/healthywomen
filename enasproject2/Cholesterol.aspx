@@ -1,23 +1,22 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="diabetes.aspx.cs" Inherits="enasproject2.diabetes" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Cholesterol.aspx.cs" Inherits="enasproject2.Cholesterol" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="pagetitle" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent" runat="server">
 
-
-        <br />
+     <br />
     <br />
     <br />
     <br />
 
     <form id="regForm">
         <div class="container">
-            <h2>Diabetes:</h2>
+            <h2>Cholesterol:</h2>
 
             <!-- One "tab" for each step in the form: -->
             <div class="tab">
-                <input type="number" id="upper">Mg/Dl 
+                <input type="number" id="upper">NG/ML 
     
             </div>
 
@@ -95,31 +94,50 @@
 
                         var roc = document.getElementById("Label_roc");
 
-                        if (upper >= 50 && upper <= 115) {
-                            l.innerHTML = "Normal";
-                            roc.innerHTML = `<ul><li> Check with your doctor periodically and perform the necessary tests that you recommend</li></ul>`;
+                        if (upper < 100) {
+                            l.innerHTML = "Optimal";
+                           
 
                         }
                         else
-                            if (upper >= 150 && upper <= 180) {
-                                l.innerHTML = "Good";
-                                roc.innerHTML = `<ul> 
-<li>Check your dentist, to detect any gum problems, and keep track of their safety constantly.</li>
+                            if (upper >= 100 && upper <= 139) {
+                                l.innerHTML = "Near optimal";
 
 
- <li>Visit the eye doctor periodically, and examine the pupil and retina.</li>
-
-</ul>`;
                             }
 
+                            else if (upper >= 140 && upper <= 159) {
+                                l.innerHTML = "Borderline high";
+                            }
+                            else if (upper >= 160 && upper <= 189) {
+                                l.innerHTML = "high";
+
+                                 roc.innerHTML = `<ul><li>  Tension control and control</li>
+                                                  <li>Eat healthy </li>
+ <li> Quit Smoking </li>
+
+                                                </ul>Many studies have shown that excessive weight loss helps reduce low-density lipoprotein levels and increase HDL levels.
+Refrain from drinking alcohol to cause alcohol to damage the liver and increase the level of harmful cholesterol.
+`;
+                            }
                             else {
-                                l.innerHTML = "seek Emergency care";
-                                roc.innerHTML = ` <ul> <li>Maintain weight</li>
+                                l.innerHTML = "Very high";
+                                 roc.innerHTML = `<ul><li> Exercise</li>
+                                                  <li>Eat supplements </li>
+ <li> Quit Smoking </li>
+<li>Adherence to drugs prescribed by 
+the doctor to lower cholesterol levels in the blood, 
+and drugs that are usually prescribed for this purpose: 
+Statins, which reduce the levels of low-density lipoprotein and
+triglycerides, as well as raise the level of good cholesterol in a 
+simple manner, examples of these The drug group is Atorvastatin,
+and cholesterol-lowering drugs are also prescribed: niacin, colesevelam, 
+cholestyramine, and fibrates</li>
+                                                </ul>
+`;
 
- <li>Take treatment regularly.</li>
-
-<li>Take care of the feet and take care of them for fear of any ulcers or wounds.</li></ul>`;
                             }
+
 
 
 
@@ -177,4 +195,7 @@
             </script>
         </div>
     </form>
+
+
+
 </asp:Content>

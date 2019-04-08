@@ -1,23 +1,21 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="diabetes.aspx.cs" Inherits="enasproject2.diabetes" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="vitamin_D.aspx.cs" Inherits="enasproject2.vitamin_D" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="pagetitle" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent" runat="server">
-
-
-        <br />
+    <br />
     <br />
     <br />
     <br />
 
     <form id="regForm">
         <div class="container">
-            <h2>Diabetes:</h2>
+            <h2>Vitamin D:</h2>
 
             <!-- One "tab" for each step in the form: -->
             <div class="tab">
-                <input type="number" id="upper">Mg/Dl 
+                <input type="number" id="upper">NG/ML 
     
             </div>
 
@@ -95,31 +93,33 @@
 
                         var roc = document.getElementById("Label_roc");
 
-                        if (upper >= 50 && upper <= 115) {
-                            l.innerHTML = "Normal";
-                            roc.innerHTML = `<ul><li> Check with your doctor periodically and perform the necessary tests that you recommend</li></ul>`;
+                        if (upper < 30) {
+                            l.innerHTML = "Deficient";
+                            roc.innerHTML = `<ul><li> Eat vitamin D supplements</li>
+                                                  <li>Eat foods that contain vitamin D. </li>
+ <li> Exposure to sunlight </li>
+
+                                                </ul>Treatment should be performed under the supervision of a doctor, as the increase in the dose of supplementation may cause toxicity, and generally prefer to take vitamin D3 tablets on D2, especially if the doses are spaced, such as one dose per month, preferably with a meal containing fat To obtain higher absorption, and in cases of severe vitamin D deficiency, that is when the level of vitamin D in the blood is less than 10 nanograms per ml.
+ A dose of 50000 units is usually prescribed once a week for two to three times a week for one month. In the simplest cases, when the vitamin D level is between 11-25 ng per ml, less doses or periods may be used to obtain effective treatment. All cases must be given a preventive or stabilizing dose ranging from 800-2000 units a day to all people who have not made changes in their lifestyle, so that they adjust their level of vitamin D
+`;
 
                         }
                         else
-                            if (upper >= 150 && upper <= 180) {
-                                l.innerHTML = "Good";
-                                roc.innerHTML = `<ul> 
-<li>Check your dentist, to detect any gum problems, and keep track of their safety constantly.</li>
+                            if (upper >= 30 && upper <= 39) {
+                                l.innerHTML = "Adequate";
 
 
- <li>Visit the eye doctor periodically, and examine the pupil and retina.</li>
-
-</ul>`;
                             }
 
-                            else {
-                                l.innerHTML = "seek Emergency care";
-                                roc.innerHTML = ` <ul> <li>Maintain weight</li>
-
- <li>Take treatment regularly.</li>
-
-<li>Take care of the feet and take care of them for fear of any ulcers or wounds.</li></ul>`;
+                            else if (upper >= 40 && upper <= 59) {
+                                l.innerHTML = "Optimal";
                             }
+                            else if (upper >= 60 && upper <= 100) {
+                                l.innerHTML = "Therapeutic";
+                            }
+                            else
+                                l.innerHTML = "Excess";
+
 
 
 
@@ -177,4 +177,5 @@
             </script>
         </div>
     </form>
+
 </asp:Content>
