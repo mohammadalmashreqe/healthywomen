@@ -179,6 +179,7 @@
     <Content Include="myimages\img_avatar2.png" />
     <Content Include="myimages\no-image.png" />
     <Content Include="NaturalBabyWeighLength.aspx" />
+    <Content Include="Powerofblood.aspx" />
     <Content Include="Services.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="signupdoctor.aspx" />
@@ -332,6 +333,13 @@
     </Compile>
     <Compile Include="NaturalBabyWeighLength.aspx.designer.cs">
       <DependentUpon>NaturalBabyWeighLength.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Powerofblood.aspx.cs">
+      <DependentUpon>Powerofblood.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Powerofblood.aspx.designer.cs">
+      <DependentUpon>Powerofblood.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services.aspx.cs">
