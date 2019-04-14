@@ -105,7 +105,49 @@ A blood test is a laboratory analysis performed on a blood sample that is usuall
             </div>
 
         </div>
+        <br />
+        <hr />
+        <br />
+        <div class="row">
+             <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">            Triglyceride test  </h5>
+                        <p class="card-text">
+Triglycerides are a type of fat found in the blood. High levels of triglycerides may raise the risk of coronary artery disease, especially in women   
+                            </p>
+                            <a href="Triglyceride.aspx" class="btn btn-primary">Go </a>
+                    </div>
+                </div>
+            </div>
+           
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">  Glucose test </h5>
+                        <p class="card-text">
+                            A blood glucose test measures the glucose levels in your blood. Glucose is a type of sugar. It is your body's main source of energy.
+                            </p>
+                            <a href="Glucose.aspx" class="btn btn-primary">Go </a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"> blood sugar in pregnant women : </h5>
+                        <p class="card-text">
+Blood sugar levels are important for all mothers to be with diabetes –as well controlled blood glucose levels
+                            </p>
+                            <a href="Normalbloodsugarinpregnantwomen.aspx" class="btn btn-primary">Go </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </div>

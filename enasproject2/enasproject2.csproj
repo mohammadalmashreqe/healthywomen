@@ -97,6 +97,7 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\themify.svg" />
+    <Content Include="Glucose.aspx" />
     <Content Include="heartRate.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="images\about-bg.png" />
@@ -179,11 +180,13 @@
     <Content Include="myimages\img_avatar2.png" />
     <Content Include="myimages\no-image.png" />
     <Content Include="NaturalBabyWeighLength.aspx" />
+    <Content Include="Normalbloodsugarinpregnantwomen.aspx" />
     <Content Include="Powerofblood.aspx" />
     <Content Include="Services.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="signupdoctor.aspx" />
     <Content Include="style.css" />
+    <Content Include="Triglyceride.aspx" />
     <Content Include="vitamin_D.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -292,6 +295,13 @@
     <Compile Include="error.aspx.designer.cs">
       <DependentUpon>error.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Glucose.aspx.cs">
+      <DependentUpon>Glucose.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Glucose.aspx.designer.cs">
+      <DependentUpon>Glucose.aspx</DependentUpon>
+    </Compile>
     <Compile Include="heartRate.aspx.cs">
       <DependentUpon>heartRate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -334,6 +344,13 @@
     <Compile Include="NaturalBabyWeighLength.aspx.designer.cs">
       <DependentUpon>NaturalBabyWeighLength.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Normalbloodsugarinpregnantwomen.aspx.cs">
+      <DependentUpon>Normalbloodsugarinpregnantwomen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Normalbloodsugarinpregnantwomen.aspx.designer.cs">
+      <DependentUpon>Normalbloodsugarinpregnantwomen.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Powerofblood.aspx.cs">
       <DependentUpon>Powerofblood.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -369,6 +386,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Triglyceride.aspx.cs">
+      <DependentUpon>Triglyceride.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Triglyceride.aspx.designer.cs">
+      <DependentUpon>Triglyceride.aspx</DependentUpon>
     </Compile>
     <Compile Include="vitamin_D.aspx.cs">
       <DependentUpon>vitamin_D.aspx</DependentUpon>
