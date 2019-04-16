@@ -13,10 +13,19 @@ namespace enasproject2
         {
 
         }
-
+        protected void But_login(object sender, EventArgs e)
+        {
+           
+        }
         protected void Button1_Click(object sender, EventArgs e)
         {
            
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            Session["username"] = null;
+            Response.Redirect("Home.aspx");
         }
     }
 }

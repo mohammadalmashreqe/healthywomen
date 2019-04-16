@@ -6,7 +6,10 @@
 <head runat="server">
     <style>
 
-
+        .myclass
+        {
+            margin-left:50px;
+        }
     </style>
     <title>
         <asp:ContentPlaceHolder ID="pagetitle" runat="server">
@@ -33,7 +36,7 @@
 
 </head>
 <body>
-
+     <form id="form1" runat="server">
         <header class="site-header">
         <div class="nav-bar">
             <div class="container">
@@ -51,9 +54,10 @@
 								 <li><a href="Services.aspx">Calculations</a></li>
 								
 
-                                <li class="call-btn button gradient-bg mt-3 mt-md-0">
-                                    <a class="d-flex justify-content-center align-items-center" href="#"><img src="images/emergency-call.png"> +96279999999</a>
+                                <li class="call-btn button gradient-bg mt-3 mt-md-0" style="text-align:center;">
+                                    <asp:Button ID="Button1" runat="server" CssClass="d-flex justify-content-center align-items-center btn btn-primary myclass" Text="Logout" OnClick="Button1_Click1" />   
                                 </li>
+           
                             </ul>
                         </nav><!-- .site-navigation -->
 
@@ -72,7 +76,7 @@
     </header><!-- .site-header -->
 
 
-    <form id="form1" runat="server">
+   
 
 
 

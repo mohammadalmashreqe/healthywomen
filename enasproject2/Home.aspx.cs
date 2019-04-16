@@ -29,6 +29,7 @@ namespace enasproject2
             DataTable dt = dal.SelectData("myLogin", p);
             if (dt.Rows.Count > 0)
             {
+                Session["username"] = "ok";
                 Response.Redirect("Default.aspx");
             }
 

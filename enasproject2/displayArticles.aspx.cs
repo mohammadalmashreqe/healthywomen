@@ -16,18 +16,26 @@ namespace enasproject2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if (Session["username"] == null)
             {
-                DataAccessLayer dal = DataAccessLayer.getConInstance();
-                dal.Open();
-                DataTable dt = dal.SelectData("GetArticles", null);
-              
-                Repeater1.DataSource = dt;
 
-                Repeater1.DataBind();
+                Response.Redirect("Home.aspx");
             }
+            else
+            {
+                if (!IsPostBack)
+                {
+                    DataAccessLayer dal = DataAccessLayer.getConInstance();
+                    dal.Open();
+                    DataTable dt = dal.SelectData("GetArticles", null);
+
+                    Repeater1.DataSource = dt;
+
+                    Repeater1.DataBind();
+                }
 
 
+            }
         }
 
         protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)

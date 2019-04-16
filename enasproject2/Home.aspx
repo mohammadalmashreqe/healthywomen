@@ -107,14 +107,14 @@
             <img src="myimages/img_avatar2.png" alt="Avatar" class="avatar" />
         </div>
 
-        <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" runat="server" id="TextBox_Email" placeholder="Enter Username" name="uname" required>
+        <div class="container" style="text-align:center;">
+           
+            <input type="text" runat="server" id="TextBox_Email" placeholder="Enter Username" name="uname" style="width:50%;" required>
+            <br />
+         
+            <input type="password"  runat="server"   id="TextBox_password"  placeholder="Enter Password" style="width:50%;" name="psw" required>
 
-            <label for="psw"><b>Password</b></label>
-            <input type="password"  runat="server"   id="TextBox_password"  placeholder="Enter Password" name="psw" required>
-
-            <button runat="server" id="but_login" onserverclick="But_login" >Login</button>
+            <button runat="server" id="but_login" onserverclick="But_login" style="width:50%;" >Login</button>
         </div>
 
         <div class="container">
