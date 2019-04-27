@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="pagetitle" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
-        <link href="custom1.css" rel="stylesheet" />
+     <link href="mystyleforrocandresult.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent" runat="server">
      <br />
@@ -20,10 +20,10 @@
 </div>
 
 <div class="tab">
- <h1 >  <label  id="Label1">   </label></h1> 
+ <h1 class="result" >  <label  id="Label1">   </label></h1> 
     
 </div>
-<p id="roc">Before starting exercise, 
+<p id="roc" class="roc">Before starting exercise, 
         consult your doctor if you have a chronic
         health condition such as heart disease, 
         high blood pressure or diabetes,

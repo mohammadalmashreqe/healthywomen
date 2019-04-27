@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="pagetitle" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+     <link href="mystyleforrocandresult.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent" runat="server">
     <br />
@@ -20,10 +21,10 @@
             </div>
 
             <div class="tab">
-                <h1>
+                <h1 class="result">
                     <label id="Label1"></label>
                 </h1>
-                <h2>
+                <h2 class="roc">
                     <label id="Label_roc"></label>
                 </h2>
             </div>

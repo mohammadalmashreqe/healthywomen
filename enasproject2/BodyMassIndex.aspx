@@ -3,8 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     
-    
-    <link href="custom1.css" rel="stylesheet" />
+    <link href="mystyleforrocandresult.css" rel="stylesheet" />
+   
 
     <script>
 
@@ -39,8 +39,8 @@
 </div>
 
 <div class="tab">
- <h1 >  <label  id="Label1">   </label></h1> 
-    <p class="fa-paragraph"  id="roc"> </p>
+ <h1 class="result" >  <label  id="Label1">   </label></h1> 
+    <p class="fa-paragraph roc"  id="roc"> </p>
 </div>
 
 

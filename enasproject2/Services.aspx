@@ -14,12 +14,12 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/calories%20calculator.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">calories calculator</h5>
                         <p class="card-text">
                             The Calorie Calculator can be used to estimate the number of calories a person needs to consume each day
-
+                        
                         </p>
                         <a href="Calorie_calculator.aspx" class="btn btn-primary">Go</a>
                     </div>
@@ -31,7 +31,7 @@
             
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                            <img class="card-img-top" src="myimages/Date%20of%20Birth%20calculator.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Date of Birth calculator</h5>
                         <p class="card-text">
@@ -45,9 +45,9 @@
 
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/Body%20Mass%20Index.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Body Mass Index</h5>
+                                    <h5 class="card-title">Body Mass Index</h5>
                         <p class="card-text">Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</p>
                         <a href="BodyMassIndex.aspx" class="btn btn-primary">Go</a>
                     </div>
@@ -62,7 +62,7 @@
            <div class="row">
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/Natural%20Baby%20Weight%20and%20Length.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Natural Baby Weight and Length</h5>
                         <p class="card-text">
@@ -71,13 +71,13 @@ This calculator uses measured recumbent Length for infants and toddlers from bir
                         <a href="NaturalBabyWeighLength.aspx" class="btn btn-primary">Go</a>
                     </div>
                 </div>
-
+           
 
             </div>
-            
+              
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/Heart%20rate.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Heart rate</h5>
                         <p class="card-text">

@@ -1,0 +1,14 @@
+﻿
+.result {
+    text-align: center;
+    border: solid;
+    border-radius: 90%;
+    width: 100%;
+    color: blue;
+}
+
+.roc {
+    border: solid;
+    padding: 25px;
+}
+

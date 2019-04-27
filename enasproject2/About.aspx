@@ -3,6 +3,10 @@
     About
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+    <style>
+
+    
+    </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent" runat="server">
  <div class=" align-content-center" style="text-align:center">

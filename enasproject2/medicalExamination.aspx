@@ -13,10 +13,10 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/Blood%20Pressure.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Blood Pressure</h5>
-                        <p class="card-text">
+                            <p class="card-text">
                             heart rate calculation
                             can be determined for any age
                            , enabling you 
@@ -30,10 +30,10 @@
             </div>
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top"  src="myimages/Diabetes.jpg"  alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Diabetes</h5>
-                        <p class="card-text">
+                                     <p class="card-text">
                             heart rate calculation
                             can be determined for any age
                            , enabling you 
@@ -45,10 +45,10 @@
                     </div>
                 </div>
             </div>
-
+       
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/Vitamin%20D.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Vitamin D </h5>
                         <p class="card-text">
@@ -64,10 +64,11 @@
         <br />
         <hr />
         <br />
+        
         <div class="row">
              <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/Cholesterol.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Cholesterol </h5>
                         <p class="card-text">
@@ -79,8 +80,9 @@
             </div>
 
              <div class="col-md-4">
+               
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/Iron%20Stocks.jpg"  alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Iron Stocks  </h5>
                         <p class="card-text">
@@ -91,10 +93,9 @@
                 </div>
             </div>
 
-            
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/Power%20of%20blood%20test.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Power of blood test  </h5>
                         <p class="card-text">
@@ -108,10 +109,11 @@ A blood test is a laboratory analysis performed on a blood sample that is usuall
         <br />
         <hr />
         <br />
+  
         <div class="row">
              <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/Triglyceride%20test.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">            Triglyceride test  </h5>
                         <p class="card-text">
@@ -123,8 +125,9 @@ Triglycerides are a type of fat found in the blood. High levels of triglycerides
             </div>
            
               <div class="col-md-4">
+             
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/Glucose%20test.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">  Glucose test </h5>
                         <p class="card-text">
@@ -134,10 +137,10 @@ Triglycerides are a type of fat found in the blood. High levels of triglycerides
                     </div>
                 </div>
             </div>
-
+      
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="myimages/no-image.png" alt="Card image cap">
+                    <img class="card-img-top" src="myimages/blood%20sugar%20in%20pregnant%20women.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title"> blood sugar in pregnant women : </h5>
                         <p class="card-text">
