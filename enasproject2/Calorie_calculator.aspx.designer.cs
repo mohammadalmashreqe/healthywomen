@@ -13,15 +13,6 @@ namespace enasproject2 {
     public partial class Calorie_calculator {
         
         /// <summary>
-        /// TextBox_Age control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_Age;
-        
-        /// <summary>
         /// TextBox_weight control.
         /// </summary>
         /// <remarks>
@@ -29,24 +20,6 @@ namespace enasproject2 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox_weight;
-        
-        /// <summary>
-        /// DropDownList_Gander control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Gander;
-        
-        /// <summary>
-        /// TextBox_height control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_height;
         
         /// <summary>
         /// DropDownList1 control.

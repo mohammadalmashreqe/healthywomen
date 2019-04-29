@@ -20,9 +20,9 @@ namespace enasproject2
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            int age = int.Parse(TextBox_Age.Text);
+     
             double w =double.Parse(TextBox_weight.Text);
-            double h = double.Parse(TextBox_height.Text);
+          
           if(DropDownList1.SelectedIndex==0)
             {
                 Label_result.Text ="Result = "+ w * 24 * 1.3+"";
@@ -38,6 +38,9 @@ namespace enasproject2
                 Label_result.Text = "Result = " + w * 24 * 1.5 + "";
 
 
+          Label_roc.Text= "<ol><li> Have 1/4 to 1/2cupo fnuts everyday </li>"+
+                "<li> Limitlow - caloriebeverages,suchasdietdrinks,andreplacewithmilk,smoothiesorjuice</li>"+
+"<li> Eatingfruits </li>"+ "<li>eatinghealthy </li>"+"<li>drinkwater</li> <li> Eatmorethan3mealsaday</li><li> Eatmeat</li>";
         }
     }
 }
