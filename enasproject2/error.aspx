@@ -8,9 +8,12 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <br />
+        <br />
+        <br />
         <div>
-            ops ! 
-            somthing wrong 
+        Congratulations The registration was successful
+        Kindly wait to accept the registration from the admin 
         </div>
     </form>
 </body>

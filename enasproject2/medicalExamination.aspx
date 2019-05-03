@@ -2,6 +2,55 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="pagetitle" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+    <script>
+    function myFunction()
+    {
+        var s = document.getElementById("Select1");
+        if (s.selectedIndex == 0) {
+            document.getElementById("a20").setAttribute("style", "display:");
+            document.getElementById("a20").setAttribute("class", "row");
+            document.getElementById("a30").setAttribute("style", "display:none");
+            document.getElementById("a30").setAttribute("class", "row");
+
+            document.getElementById("a40").setAttribute("style", "display:none");
+            document.getElementById("a40").setAttribute("class", "row");
+
+        }
+        else
+            if (s.selectedIndex == 1) {
+                document.getElementById("a20").setAttribute("style", "display:none");
+                document.getElementById("a30").setAttribute("style", "display:");
+                document.getElementById("a40").setAttribute("style", "display:none");
+
+                 document.getElementById("a20").setAttribute("class", "row");
+                document.getElementById("a30").setAttribute("class", "row");
+                document.getElementById("a40").setAttribute("class", "row");
+            }
+            else
+                if (s.selectedIndex == 2) {
+                    document.getElementById("a20").setAttribute("style", "display:none");
+                    document.getElementById("a30").setAttribute("style", "display:none");
+                    document.getElementById("a40").setAttribute("style", "display:");
+
+                    document.getElementById("a20").setAttribute("class", "row");
+                    document.getElementById("a30").setAttribute("class", "row");
+                    document.getElementById("a40").setAttribute("class", "row");
+                }
+                else {
+                   
+            document.getElementById("a20").setAttribute("style", "display:");
+            document.getElementById("a30").setAttribute("style", "display:");
+            document.getElementById("a40").setAttribute("style", "display:");
+
+
+                    document.getElementById("a20").setAttribute("class", "row");
+            document.getElementById("a30").setAttribute("class", "row");
+            document.getElementById("a40").setAttribute("class", "row");
+        }
+                
+            
+    }
+</script>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent" runat="server">
     <br />
@@ -9,10 +58,19 @@
     <br />
     <br />
 
-    <div class="container">
-        <div class="row">
+    <div class="container"> 
+        Filter By Age : <select id="Select1" onchange="myFunction()"class="btn btn-primary dropdown-toggle" style=" width: 120px;    margin-bottom: 20px;   margin-top: 20px;">
+                <option>20</option>
+                <option>30</option>
+           
+             <option>other</option>
+             <option>All</option>
+              </select>
+        <div class="row" id="a20">
+         
+          
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card"  style="width: 18rem;">
                     <img class="card-img-top" src="myimages/Blood%20Pressure.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Blood Pressure</h5>
@@ -65,7 +123,7 @@
         <hr />
         <br />
         
-        <div class="row">
+        <div class="row" id="a30">
              <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="myimages/Cholesterol.jpg" alt="Card image cap">
@@ -110,7 +168,7 @@ A blood test is a laboratory analysis performed on a blood sample that is usuall
         <hr />
         <br />
   
-        <div class="row">
+        <div class="row" id="a40">
              <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="myimages/Triglyceride%20test.jpg" alt="Card image cap">

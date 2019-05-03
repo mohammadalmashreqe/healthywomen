@@ -38,8 +38,8 @@ namespace enasproject2
 
             if (dal.myExcute("signupDoctor", p))
             {
-                //لازم اقله انه عمل بنجاح 
-                Response.Redirect("Login.aspx");
+              
+                Response.Redirect("error.aspx");
             }
         }
     }

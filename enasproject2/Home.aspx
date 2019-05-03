@@ -120,6 +120,9 @@
         <div class="container">
             signup <a href="signup.aspx">Here</a>
         </div>
+           <div class="container">
+            signup as Doctor <a href="signupdoctor.aspx">Here</a>
+        </div>
     </div>
 </div>
 
