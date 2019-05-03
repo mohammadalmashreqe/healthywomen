@@ -27,12 +27,12 @@
                 <input type="number" id="upper" />MG/DL
     
             </div>
-
+             
             <div class="tab">
-                <h1 class="result">
+                <h1 class="result" id="h1res" style="display:none">
                     <label id="Label1"></label>
                 </h1>
-                <h2 class="roc">
+                <h2 class="roc"  id="h2roc" style="display:none">
                     <label id="Label_roc"></label>
                 </h2>
             </div>
@@ -106,7 +106,7 @@
                         if (drop.selectedIndex == 0 && upper <95 ) {
                             l.innerHTML = "Normal";
 
-
+                             document.getElementById("h1res").setAttribute("style", "display:block");
 
 
                         }
@@ -121,9 +121,12 @@ It regulates the functions of the body, helps distribute glucose to all cells of
  In the worst case, a pregnant woman should take medication to reduce blood sugar and keep it in use.
 
 `;
+                             document.getElementById("h1res").setAttribute("style", "display:block");
+    document.getElementById("h2roc").setAttribute("style", "display:block");
                         }
                         else if (drop.selectedIndex == 1 && upper < 120 ) {
                             l.innerHTML = "Normal";
+                             document.getElementById("h1res").setAttribute("style", "display:block");
 
                         }
                         else if (drop.selectedIndex == 1 && upper >= 120) {
@@ -137,7 +140,8 @@ It regulates the functions of the body, helps distribute glucose to all cells of
  In the worst case, a pregnant woman should take medication to reduce blood sugar and keep it in use.
 
 `;
-
+ document.getElementById("h1res").setAttribute("style", "display:block");
+    document.getElementById("h2roc").setAttribute("style", "display:block");
                         }
 
 

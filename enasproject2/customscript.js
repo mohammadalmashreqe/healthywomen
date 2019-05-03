@@ -92,6 +92,8 @@ Do not finish your dish, try to rely on protein and vegetables more than your de
  
     // Otherwise, display the correct tab:
     showTab(currentTab);
+    document.getElementById("h1res").setAttribute("style", "display:block");
+    roc.setAttribute("style", "display:block");
 }
 
 function validateForm() {

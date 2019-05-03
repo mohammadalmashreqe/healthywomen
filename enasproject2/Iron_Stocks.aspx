@@ -20,12 +20,12 @@
                 <input type="number" id="upper" /> 
     
             </div>
-
+           
             <div class="tab">
-                <h1 class="result">
+                <h1 class="result" id="h1res" style="display:none"  >
                     <label id="Label1"></label>
                 </h1>
-                <h2 class="roc">
+                <h2 class="roc" id="h2roc" style="display:none">
                     <label id="Label_roc"></label>
                 </h2>
             </div>
@@ -99,7 +99,7 @@
                             l.innerHTML = "Normal";
 
 
-
+                              document.getElementById("h1res").setAttribute("style", "display:block");
 
                         }
                         else {
@@ -110,6 +110,8 @@
  Eat legumes: It is a source of food rich in vitamins, proteins, minerals and iron, and resist the tension and weakness resulting from anemia, and helps to rest and relaxation, strengthen blood and help the body to make hemoglobin, increase the health of the body is fighting anemia and injury, Blood, such as: beans, lentils, cowpea, beans, hummus and thermos
  Treatment of poor appetite and lack of ability to eat: You must first to identify the causes of loss of appetite and work to address, and we will remember ways to open appetite
 `;
+                              document.getElementById("h1res").setAttribute("style", "display:block");
+    document.getElementById("h2roc").setAttribute("style", "display:block");
                         }
 
 

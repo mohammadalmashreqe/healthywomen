@@ -23,10 +23,11 @@
             </div>
 
             <div class="tab">
-                <h1 class="result">
+              
+                <h1 class="result" id="h1res" style="display:none">
                     <label id="Label1" ></label>
                 </h1>
-                <h2  class="roc">
+                <h2  class="roc" id="h2roc" style="display:none">
                     <label id="Label_roc"></label>
                 </h2>
             </div>
@@ -134,6 +135,8 @@
 
                     // Otherwise, display the correct tab:
                     showTab(currentTab);
+                      document.getElementById("h1res").setAttribute("style", "display:block");
+    document.getElementById("h2roc").setAttribute("style", "display:block");
                 }
 
                 function validateForm() {

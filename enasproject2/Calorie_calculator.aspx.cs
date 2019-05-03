@@ -15,7 +15,10 @@ namespace enasproject2
             {
 
                 Response.Redirect("Home.aspx");
+              
             }
+            h1res.Visible = false;
+            h2roc.Visible = false;
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -41,6 +44,10 @@ namespace enasproject2
           Label_roc.Text= "<ol><li> Have 1/4 to 1/2cupo fnuts everyday </li>"+
                 "<li> Limitlow - caloriebeverages,suchasdietdrinks,andreplacewithmilk,smoothiesorjuice</li>"+
 "<li> Eatingfruits </li>"+ "<li>eatinghealthy </li>"+"<li>drinkwater</li> <li> Eatmorethan3mealsaday</li><li> Eatmeat</li>";
+
+            h1res.Visible = true;
+            h2roc.Visible = true; 
         }
+
     }
 }

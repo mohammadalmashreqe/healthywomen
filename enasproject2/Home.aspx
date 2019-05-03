@@ -109,7 +109,7 @@
 
         <div class="container" style="text-align:center;">
            
-            <input type="text" runat="server" id="TextBox_Email" placeholder="Enter Username" name="uname" style="width:50%;" required>
+            <input type="text" runat="server" id="TextBox_Email" placeholder="Enter Username" name="uname" style="width: 50%;" required>
             <br />
          
             <input type="password"  runat="server"   id="TextBox_password"  placeholder="Enter Password" style="width:50%;" name="psw" required>
@@ -118,7 +118,7 @@
         </div>
 
         <div class="container">
-            signup <a href="#">Here</a>
+            signup <a href="signup.aspx">Here</a>
         </div>
     </div>
 </div>

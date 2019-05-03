@@ -75,6 +75,7 @@
     <Content Include="BodyMassIndex.aspx" />
     <Content Include="Calorie_calculator.aspx" />
     <Content Include="Cholesterol.aspx" />
+    <Content Include="ContactwithDoctor.aspx" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-reboot.css" />
@@ -184,6 +185,7 @@
     <Content Include="myimages\Cholesterol.jpg" />
     <Content Include="myimages\Date of Birth calculator.jpg" />
     <Content Include="myimages\Diabetes.jpg" />
+    <Content Include="myimages\drdr.jpg" />
     <Content Include="myimages\Glucose test.jpg" />
     <Content Include="myimages\Heart rate.jpg" />
     <Content Include="myimages\img_avatar2.png" />
@@ -261,6 +263,13 @@
     </Compile>
     <Compile Include="Cholesterol.aspx.designer.cs">
       <DependentUpon>Cholesterol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactwithDoctor.aspx.cs">
+      <DependentUpon>ContactwithDoctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactwithDoctor.aspx.designer.cs">
+      <DependentUpon>ContactwithDoctor.aspx</DependentUpon>
     </Compile>
     <Compile Include="DAL\DataAccessLayer.cs" />
     <Compile Include="DataSet1.Designer.cs">

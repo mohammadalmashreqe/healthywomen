@@ -37,10 +37,10 @@
   <p><input type="number" id="w" placeholder="weight in KG..." oninput="this.className = ''"></p>
   <p><input type="number" id="h" placeholder="height in Meters..." oninput="this.className = ''"></p>
 </div>
-
+    
 <div class="tab">
- <h1 class="result" >  <label  id="Label1">   </label></h1> 
-    <p class="fa-paragraph roc"  id="roc"> </p>
+ <h1 class="result" style="display:none" id="h1res">  <label  id="Label1">   </label></h1> 
+    <p class="fa-paragraph roc"  id="roc" style="display:none" > </p>
 </div>
 
 

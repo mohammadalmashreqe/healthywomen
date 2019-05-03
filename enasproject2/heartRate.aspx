@@ -20,10 +20,10 @@
 </div>
 
 <div class="tab">
- <h1 class="result" >  <label  id="Label1">   </label></h1> 
+ <h1 class="result"  id="h1res" style="display:none">  <label  id="Label1">   </label></h1> 
     
 </div>
-<p id="roc" class="roc">Before starting exercise, 
+<p id="roc" class="roc" style="display:none">Before starting exercise, 
         consult your doctor if you have a chronic
         health condition such as heart disease, 
         high blood pressure or diabetes,
@@ -118,8 +118,9 @@ function nextPrev(n) {
                     roc.innerHTML = `The speed of the heartbeat may vary from person to person. The athlete's pulse may reach 40 beats per minute at rest. Progress in age affects the speed and nature of the pulse in humans. The heart rate is continuously increased from 100 beats / minute during rest, or if the heart rate drops below 60 beats / minute. The high heart rate known as tachycardia, as well as the slow pulse (Bradycardia) ) On the existence of a health problem, especially if the person has signs and symptoms; fainting, and Aldo , Shortness of breath`;
                 }
          l.setAttribute("style", "text-align:center;");
-        l.innerHTML = "result : " + r ;
-
+        l.innerHTML = "result : " + r;
+        document.getElementById("h1res").setAttribute("style", "display:block");
+        roc.setAttribute("style", "display:block");
     }
     // Increase or decrease the current tab by 1:
     currentTab = currentTab + n;

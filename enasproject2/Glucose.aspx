@@ -29,10 +29,11 @@
             </div>
 
             <div class="tab">
-                <h1 class="result">
+                
+                <h1 class="result" id="h1res" style="display:none">
                     <label id="Label1"></label>
                 </h1>
-                <h2 class="roc">
+                <h2 class="roc" id="h2roc" style="display:none">
                     <label id="Label_roc"></label>
                 </h2>
             </div>
@@ -105,7 +106,7 @@
 
                         if (drop.selectedIndex == 0 && upper >= 65 && upper <= 126) {
                             l.innerHTML = "Normal";
-
+                             document.getElementById("h1res").setAttribute("style", "display:block");
 
 
 
@@ -123,9 +124,12 @@
 <li> Eating fruits, especially apples and acidic fruits, helps reduce blood sugar to contain those fruits on a large proportion of ballistic materials that regulate the transmission of sugar from foods to the blood </li>
 </ul>
 `;
+                             document.getElementById("h1res").setAttribute("style", "display:block");
+                               document.getElementById("h2roc").setAttribute("style", "display:block");
                         }
                         else if (drop.selectedIndex == 1 && upper >= 79 && upper <= 180) {
                             l.innerHTML = "Normal";
+                             document.getElementById("h1res").setAttribute("style", "display:block");
 
                         }
                         else if (drop.selectedIndex == 1 && upper >= 65 && upper > 180) {
@@ -141,6 +145,8 @@
 <li> Eating fruits, especially apples and acidic fruits, helps reduce blood sugar to contain those fruits on a large proportion of ballistic materials that regulate the transmission of sugar from foods to the blood </li>
 </ul>
 `;
+                             document.getElementById("h1res").setAttribute("style", "display:block");
+    document.getElementById("h2roc").setAttribute("style", "display:block");
 
                         }
 

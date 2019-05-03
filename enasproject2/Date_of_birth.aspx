@@ -27,8 +27,9 @@
 </div>
 
 <div class="tab">
- <h1 class="result" >  <label  id="Label1" >   </label></h1> 
-    <h2 class="roc"> <label id="Label_roc"> </label></h2>
+    
+ <h1 class="result" id="h1res" style="display:none" >  <label  id="Label1" >   </label></h1> 
+    <h2 class="roc" id="h2roc" style="display:none"> <label id="Label_roc"> </label></h2>
 </div>
 
 
@@ -115,6 +116,10 @@ function nextPrev(n) {
             }
             else
                 roc.innerHTML = `The third trimester 3/3: In this period, the woman should visit the doctor continuously to examine the protein level in the urine, the blood pressure test, the fetal heart rate test, the approximate length of the uterus`;
+
+
+        document.getElementById("h1res").setAttribute("style", "display:block");
+    document.getElementById("h2roc").setAttribute("style", "display:block");
     }
 
     // Increase or decrease the current tab by 1:

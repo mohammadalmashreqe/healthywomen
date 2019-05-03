@@ -20,12 +20,12 @@
                 <input type="number" id="upper">NG/ML 
     
             </div>
-
+         
             <div class="tab">
-                <h1 class="result">
+                <h1 class="result" style="display:none" id="h1res">
                     <label id="Label1"></label>
                 </h1>
-                <h2 class="roc">
+                <h2 class="roc" id="h2roc" style="display:none">
                     <label id="Label_roc"></label>
                 </h2>
             </div>
@@ -97,18 +97,21 @@
 
                         if (upper < 100) {
                             l.innerHTML = "Optimal";
+                            document.getElementById("h1res").setAttribute("style", "display:block");
                            
 
                         }
                         else
                             if (upper >= 100 && upper <= 139) {
                                 l.innerHTML = "Near optimal";
+                                document.getElementById("h1res").setAttribute("style", "display:block");
 
 
                             }
 
                             else if (upper >= 140 && upper <= 159) {
                                 l.innerHTML = "Borderline high";
+                                document.getElementById("h1res").setAttribute("style", "display:block");
                             }
                             else if (upper >= 160 && upper <= 189) {
                                 l.innerHTML = "high";
@@ -120,6 +123,8 @@
                                                 </ul>Many studies have shown that excessive weight loss helps reduce low-density lipoprotein levels and increase HDL levels.
 Refrain from drinking alcohol to cause alcohol to damage the liver and increase the level of harmful cholesterol.
 `;
+                                document.getElementById("h1res").setAttribute("style", "display:block");
+    document.getElementById("h2roc").setAttribute("style", "display:block");
                             }
                             else {
                                 l.innerHTML = "Very high";
@@ -137,7 +142,8 @@ cholestyramine, and fibrates</li>
                                                 </ul>
 `;
 
-                            }
+                          document.getElementById("h1res").setAttribute("style", "display:block");
+    document.getElementById("h2roc").setAttribute("style", "display:block");  }
 
 
 
@@ -152,6 +158,7 @@ cholestyramine, and fibrates</li>
 
                     // Otherwise, display the correct tab:
                     showTab(currentTab);
+                    
                 }
 
                 function validateForm() {

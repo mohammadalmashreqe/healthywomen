@@ -39,7 +39,6 @@ namespace enasproject2
             if (dal.myExcute("signupDoctor", p))
             {
                 //لازم اقله انه عمل بنجاح 
-                Response.Write("<script>alert('signup successful');</script>");
                 Response.Redirect("Login.aspx");
             }
         }

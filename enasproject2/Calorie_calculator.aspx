@@ -39,10 +39,10 @@
         
         <asp:Button ID="Button1" CssClass="btn btn-danger" runat="server" Text="Calc" OnClick="Button1_Click" />
        <br />
-  
-         <h3 class="result">  <asp:Label ID="Label_result" runat="server" Text=""></asp:Label> </h3>
+
+         <h3 class="result" runat="server" id="h1res" >  <asp:Label ID="Label_result" runat="server" Text=""></asp:Label> </h3>
            <br />
-          <h4 class="roc"> <asp:Label ID="Label_roc" runat="server" Text=""></asp:Label> </h4>
+          <h4 class="roc" runat="server" id="h2roc" > <asp:Label ID="Label_roc" runat="server" Text=""></asp:Label> </h4>
 
 </div>
 

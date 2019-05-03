@@ -10,7 +10,7 @@
     <br />
     <br />
     <br />
-
+    
     <form id="regForm">
         <div class="container">
             <h2>Triglyceride test:</h2>
@@ -22,10 +22,10 @@
             </div>
 
             <div class="tab">
-                <h1 class="result">
+                <h1 class="result" id="h1res" style="display:none">
                     <label id="Label1"></label>
                 </h1>
-                <h2 class="roc">
+                <h2 class="roc" id="h2roc" style="display:none">
                     <label id="Label_roc"></label>
                 </h2>
             </div>
@@ -98,6 +98,8 @@
                         if (upper <= 150) {
                             l.innerHTML = "Normal";
 
+                             document.getElementById("h1res").setAttribute("style", "display:block");
+
 
 
 
@@ -110,6 +112,9 @@
 <li> Step 3: Quit smoking; because it has very bad effects on the health of the patient in general, and the health of his heart, and blood vessels in particular. </li>
 </ul>
 `;
+                             document.getElementById("h1res").setAttribute("style", "display:block");
+    document.getElementById("h2roc").setAttribute("style", "display:block");
+
                         }
                         else {
                             l.innerHTML = "Very high";
@@ -119,7 +124,10 @@
 <li> Step 3: Quit smoking; because it has very bad effects on the health of the patient in general, and the health of his heart, and blood vessels in particular. </li>
 </ul>
 `;
-                        }
+
+                         document.getElementById("h1res").setAttribute("style", "display:block");
+    document.getElementById("h2roc").setAttribute("style", "display:block");
+}
 
 
 

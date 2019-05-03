@@ -33,7 +33,7 @@
                 <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="myimages/Date%20of%20Birth%20calculator.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Date of Birth calculator</h5>
+                        <h5 class="card-title">Due date calculator</h5>
                         <p class="card-text">
                         Date of Birth calculator Calculates the child's expected delivery date based on the last day of period
                         </p>

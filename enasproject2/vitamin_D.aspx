@@ -9,7 +9,7 @@
     <br />
     <br />
     <br />
-
+   
     <form id="regForm">
         <div class="container">
             <h2>Vitamin D:</h2>
@@ -21,10 +21,10 @@
             </div>
 
             <div class="tab">
-                <h1 class="result">
+                <h1 class="result" id="h1res" style="display:none">
                     <label id="Label1"></label>
                 </h1>
-                <h2 class="roc">
+                <h2 class="roc" id="h2roc" style="display:none">
                     <label id="Label_roc"></label>
                 </h2>
             </div>
@@ -103,23 +103,38 @@
                                                 </ul>Treatment should be performed under the supervision of a doctor, as the increase in the dose of supplementation may cause toxicity, and generally prefer to take vitamin D3 tablets on D2, especially if the doses are spaced, such as one dose per month, preferably with a meal containing fat To obtain higher absorption, and in cases of severe vitamin D deficiency, that is when the level of vitamin D in the blood is less than 10 nanograms per ml.
  A dose of 50000 units is usually prescribed once a week for two to three times a week for one month. In the simplest cases, when the vitamin D level is between 11-25 ng per ml, less doses or periods may be used to obtain effective treatment. All cases must be given a preventive or stabilizing dose ranging from 800-2000 units a day to all people who have not made changes in their lifestyle, so that they adjust their level of vitamin D
 `;
+                            document.getElementById("h1res").setAttribute("style", "display:block");
+                            document.getElementById("h2roc").setAttribute("style", "display:block");
 
                         }
                         else
                             if (upper >= 30 && upper <= 39) {
                                 l.innerHTML = "Adequate";
+                                document.getElementById("h1res").setAttribute("style", "display:block");
+                                document.getElementById("h2roc").setAttribute("style", "display:none");
 
 
                             }
 
                             else if (upper >= 40 && upper <= 59) {
                                 l.innerHTML = "Optimal";
+                                document.getElementById("h1res").setAttribute("style", "display:block");
+                                document.getElementById("h2roc").setAttribute("style", "display:none");
+
                             }
                             else if (upper >= 60 && upper <= 100) {
                                 l.innerHTML = "Therapeutic";
+                                document.getElementById("h1res").setAttribute("style", "display:block");
+                                document.getElementById("h2roc").setAttribute("style", "display:none");
+
+
                             }
-                            else
+                            else {
                                 l.innerHTML = "Excess";
+                                  document.getElementById("h1res").setAttribute("style", "display:block");
+    document.getElementById("h2roc").setAttribute("style", "display:none");
+
+                            }
 
 
 

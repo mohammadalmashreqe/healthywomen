@@ -21,10 +21,11 @@
             </div>
 
             <div class="tab">
-                <h1 class="result">
+                
+                <h1 class="result" id="h1res" style="display:none">
                     <label id="Label1"></label>
                 </h1>
-                <h2 class="roc">
+                <h2 class="roc" id="h2roc" style="display:none">
                     <label id="Label_roc"></label>
                 </h2>
             </div>
@@ -98,7 +99,7 @@
                             l.innerHTML = "Normal : 10.5-13.5 <br>Best result :12";
 
 
-
+                             document.getElementById("h1res").setAttribute("style", "display:block");
                     
                            
 
@@ -107,20 +108,21 @@
                             if (upper >= 2 && upper < 6) {
                                l.innerHTML = "Normal : 11.5-13.5 <br>Best result :12.5";
 
-
+                                 document.getElementById("h1res").setAttribute("style", "display:block");
                             }
 
                             else if (upper >= 6 && upper < 12) {
-                               l.innerHTML = "Normal : 11.5-15.5 <br>Best result :13.5";
+                                l.innerHTML = "Normal : 11.5-15.5 <br>Best result :13.5";
+                                 document.getElementById("h1res").setAttribute("style", "display:block");
                             }
                             else if (upper >= 12 && upper < 18) {
                                l.innerHTML = "Normal : 12-16 <br>Best result :14";
-
+                                 document.getElementById("h1res").setAttribute("style", "display:block");
    
                             }
                             else {
                                l.innerHTML = "Normal : 12.1-15.1 <br> Best result :14";
-          
+           document.getElementById("h1res").setAttribute("style", "display:block");
 
                             }
 
@@ -139,7 +141,7 @@ in Up Normal case :
 </ul>
 
 `;
-
+    document.getElementById("h2roc").setAttribute("style", "display:block");
 
 
                     }
